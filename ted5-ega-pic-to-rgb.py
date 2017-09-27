@@ -13,7 +13,7 @@ File format
 ===========
   magic: 'PIC\x00' header
   columns: 16-bit little endian
-  rows: 15-bit little endian
+  rows: 16-bit little endian
   blue: bitwise data plane
   green: bitwise data plane
   red: bitwise data plane
@@ -23,9 +23,9 @@ The data itself corresponds closely to a 1980s EGA (Extended Graphics
 Adaptor) in 320x200x16 colour mode.  If one had such a card to hand,
 the bitplane data could be pasted into memory without modification.
 
-Because the data is bitwise, the columns width must be multipled by eight.
+Because the data is bitwise, the column width must be multipled by eight.
 There are four bitplanes in the order Blue, Green, Red, Intensity.
-For the EGA palette.
+These together give indexes into an EGA-style palette:
 The RGB bits each contribute 0xaa (170) to their respective channel.
 The Intensity bit contributes 0x55 (85) to all output channels.
 
@@ -58,14 +58,14 @@ in the TED 5 source code:
   By Sanglard, Fabien (31 August 2017).
   "Game Engine Black Book: Wolfenstein 3D".
   Page 89.  Chapter 3.5. Trivia.  
-  https://books.google.co.uk/books?id=Lq4yDwAAQBAJ
+  https://books.google.co.uk/books?id=Lq4yDwAAQBAJ&pg=PA89
 
 This contains a statement from John Romero of iD Software, naming the
 artist as Adrian Carmack, and the caricature being of Tom Hall.  In
 the early 1990s, all three were employees of iD along with John
-Carmack
+Carmack.
 
-Part of lower part of the picture is obscured, and so a direct
+Part of lower part of the picture is partially obscured, and so a direct
 comparision is unlikely to be possible.
 
 Output format
