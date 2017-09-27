@@ -52,7 +52,7 @@ using C preprocessor declarations, so is not included in the '.EXE' executable.
 Further reading
 ===============
 The same Debian Developer subsequently located a published reference giving
-additional insight into the background and the picture files inclusion
+additional insight into the background and the picture's inclusion
 in the TED 5 source code:
 
   By Sanglard, Fabien (31 August 2017).
@@ -65,8 +65,8 @@ artist as Adrian Carmack, and the caricature being of Tom Hall.  In
 the early 1990s, all three were employees of iD along with John
 Carmack.
 
-Part of lower part of the picture is partially obscured, and so a direct
-comparision is unlikely to be possible.
+A section of the lower part of the picture is partially obscured, and
+so a direct comparision is unlikely to be possible.
 
 Output format
 =============
