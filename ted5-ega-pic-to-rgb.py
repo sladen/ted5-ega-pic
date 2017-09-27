@@ -6,7 +6,7 @@ One of the Debian Doom maintainers requested help regarding whether a
 25-year old binary file with the extension '.PIC' could be decoded to
 confirm its contents and if was indeed a picture of some sort.
 
-Apologises were latterly received once the contents of the portrait
+Apologies were latterly received once the contents of the portrait
 were understood.
 
 File format
@@ -73,6 +73,16 @@ Output format
 The convertor deinterlaces the bitplanes and writes 24-bit RGB triplets to
 stdout, ensuring that further work is required by the user to easily
 display the result.
+
+Wider use
+=========
+A matching 'PIC\x0' header is described at:
+
+  http://www.shikadi.net/moddingwiki/PIC_Format#PIC_format_version_2
+  http://www.shikadi.net/moddingwiki/Rescue_Rover
+
+With a reference to "Rescue Rover" (but without the described
+RLE (Run Length Encoding) step.
 """
 import sys
 import struct
