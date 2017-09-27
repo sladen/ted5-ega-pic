@@ -70,7 +70,7 @@ so a direct comparision is unlikely to be possible.
 
 Output format
 =============
-The convertor deinterlaces the bitplanes writes 24-bit RGB triplets to
+The convertor deinterlaces the bitplanes and writes 24-bit RGB triplets to
 stdout, ensuring that further work is required by the user to easily
 display the result.
 """
